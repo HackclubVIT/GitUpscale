@@ -22,3 +22,19 @@ for i in range(4):
     sleep(0.15)
 
 clear()
+
+s = "Found all Hackers"
+d = "Displaying"
+dl = list(d)
+
+# print(dl)
+
+print(s)
+for i in dl:
+    print(i)
+    sleep(0.1)
+
+clear()
+
+print(s)
+print(d)

@@ -38,3 +38,14 @@ clear()
 
 print(s)
 print(d)
+
+with open("names.txt", "r", encoding="utf8") as file:
+    txtname = file.read()
+
+lstname = txtname.replace("\n", "$")
+name = lstname.split("$")
+name.pop()
+
+for i in name:
+    print(i)
+    sleep(0.4)
